@@ -1,0 +1,35 @@
+.sidebar li {
+  margin-bottom: 1em;
+  padding-left: 20px;
+  font-weight: bold;
+}
+
+.sidebar ul li {
+  text-decoration: none;
+}
+
+.sideBarlink::after {
+  content: "";
+  display: block;
+  background: #3e8ffb;
+  width: 0;
+  height: 2px;
+  transition: width 0.3s;
+}
+
+.sideBarlink:hover::after {
+  width: 60%;
+}
+
+.sideBarlink:hover {
+  text-decoration: none;
+}
+
+.sideBarlink {
+  color: black;
+  text-decoration: none;
+}
+
+.logoutBtn:hover {
+  color: red;
+}
